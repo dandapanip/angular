@@ -1,0 +1,29 @@
+footer {
+    background-color: #33b0c0!important;
+    }
+    text-center p-3 p{
+        text-align: center;
+        color: #fff;
+    }
+    .text-uppercase
+    {
+        color:cornsilk;
+    }
+
+    .text-dark {
+        color: rgba(0,0,0,.7)!important;
+        font-size: 15px;
+        text-decoration: none;
+
+    }
+
+    .features{
+        color: rgba(0,0,0,.7)!important;
+        font-size: 15px;
+    }
+    
+    .lowercase{
+        color: rgba(0,0,0,.7)!important;
+        font-size: 15px;
+    }
+      

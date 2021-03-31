@@ -1,0 +1,44 @@
+.header-main-section {
+    background-color: #00BCD4;
+}
+.header-search-section {
+    display: flex;
+}
+.top-menu {
+    margin-top: 36px;
+}
+
+.top-menu .navbar-nav {
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.header-search-section .btn-outline-success{
+    background: #607D8B;
+    border-radius: 0;
+    color: #fff;
+}
+
+.header-search-section input{
+    border-radius: 0;
+}
+
+.header-top-section ul {
+    display: -webkit-inline-box;
+    margin-left: auto;
+    float: right;
+}
+
+.header-top-section ul li {
+    padding-right: 10px;
+}
+
+.header-top-section ul li a {
+    color: rgba(0,0,0,.7);
+    font-size: 15px;
+}
+
+.search-btn {
+    margin-right: 8px;
+}
+
