@@ -1,1 +1,32 @@
-<p>login works!</p>
+<div class="login-form">
+    <form (ngSubmit)="onSubmit()" #f="ngForm">
+        <h2 class="text-center">Sign In</h2>   
+        <div class="form-group">
+        	<div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        <span class="fa fa-user"></span>
+                    </span>                    
+                </div>
+                <input type="text" id="user_Email" placeholder="E-Mail" class="form-control" ngModel name="user_Email" #username="ngModel" required>
+            </div>
+        </div>
+		<div class="form-group">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        <i class="fa fa-lock"></i>
+                    </span>                    
+                </div>
+                <input type="password" id="user_password" placeholder="Password" class="form-control" ngModel name="user_password" #password="ngModel" required>
+            </div>
+        </div>        
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block">Log in</button>
+        </div>
+        <div class="bottom-action clearfix">
+            <label class="float-left form-check-label"><input type="checkbox"> Remember me</label>
+            <a href="#" class="float-right">Forgot Password?</a>
+        </div>        
+    </form>
+</div>
